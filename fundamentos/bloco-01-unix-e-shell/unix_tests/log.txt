@@ -1,0 +1,760 @@
+    1  sudo apt-get install curl
+    2  curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+    3  sudo apt-get install -y nodejs
+    4  node 'v
+    5  node -v
+    6  node 'v
+    7  node -
+    8  node -v
+    9  npm -v
+   10  sudo npm install --global yarn
+   11  yarn -v
+   12  sudo add-apt-repository ppa:openjdk-r/ppa
+   13  sudo apt-get update
+   14  sudo apt-get install openjdk-11-jdk
+   15  java -version
+   16  cd /usr/lib/jvm/java-11-openjdk-amd64
+   17  cd ~
+   18  code .bashrc
+   19  [200~export PATH=$PATH:~/android-studio/bin~
+   20  export PATH=$PATH:~/android-studio/bin
+   21  studio.sh
+   22  mkdir projetos
+   23  cd projetos
+   24  npx react-native init app
+   25  code .
+   26  npx react-native run-android
+   27  emulator @pixel
+   28  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+   29  cd projetos/app
+   30  code .
+   31  npm start
+   32  npx react-native run-android
+   33  sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+   34  sudo apt-get update
+   35  sudo apt-get install grub-customizer
+   36  sudo apt-get purge aisleriot gnome-sudoku mahjongg ace-of-penguins gnomine gbrainy
+   37  sudo apt remove aisleriot gnome-mahjongg gnome-mines gnome-sudoku 
+   38  sudo apt-get purge mines
+   39  code .
+   40  explorer .
+   41  files .
+   42  file .
+   43  gnome-open
+   44  nautilus .
+   45  npm start
+   46  npx react-native run-android
+   47  wget https://openrgb.org/releases/release_0.7/OpenRGB_0.7_x86_64_6128731.AppImage -O openrgb.appimage
+   48  chmod a+x openrgb.appimage
+   49  sudo ./openrgb.appimage --install
+   50  wget https://openrgb.org/releases/release_0.7/openrgb_0.7_amd64_bullseye_6128731.deb -O openrgb.deb
+   51  sudo dpkg -i openrgb.deb
+   52  sudo apt install ./openrgb.deb
+   53  sudo apt --fix-broken install ./openrgb.deb
+   54  sudo apt install -f
+   55  sudo apt install ./openrgb.deb
+   56  sudo apt install -f
+   57  ls
+   58  sudo dpkd -i openrgb.deb 
+   59  sudo dpkg -i openrgb.deb 
+   60  sudo apt install -f
+   61  sudo dpkg -i openrgb.deb 
+   62  sudo apt install -f
+   63  sudo dpkg -i openrgb.deb 
+   64  sudo apt install -f
+   65  sudo apt install i2c-tools
+   66  sudo apt install -f
+   67  lsmod | grep i2c
+   68  sudo modprobe i2c-dev
+   69  lsmod | grep i2c
+   70  sudo apt install -f
+   71  sudo apt install git build-essential qtcreator qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libusb-1.0-0-dev libhidapi-dev pkgconf libmbedtls-dev
+   72  git clone https://gitlab.com/CalcProgrammer1/OpenRGB
+   73  cd OpenRGB
+   74  qmake OpenRGB.pro
+   75  make -j$(nproc)
+   76  make install
+   77  ./openrgb
+   78  make install
+   79  cd ~
+   80  sudo apt install i2c
+   81  sudo apt install i2c-tools
+   82  sudo dpkg -i openrgb_0.7_amd64_bullseye_6128731.deb 
+   83  sudo modprobe i2c-dev
+   84  sudo modprobe i2c-i801
+   85  sudo apt install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
+   86  sudo apt install -f
+   87  sudo apt install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
+   88  sudo dpkg -i openrgb_0.7_amd64_bullseye_6128731.deb 
+   89  sudo apt install -f
+   90  sudo apt install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
+   91  sudo apt install build-essential qtcreator qt5-default libusb-1.0-0-dev libhidapi-dev pkgconf
+   92  sudo dpkg -i openrgb_0.7_amd64_bullseye_6128731.deb 
+   93  sudo apt install -f
+   94  react-native -v
+   95  react-native info
+   96  cd projetos/app
+   97  code .
+   98  npm start
+   99  npx react-native run-android
+  100  nautilus .
+  101  yarn add react-native-image-picker
+  102  react-native link react-native-image-picker
+  103  npm install react-native
+  104  react-native -v
+  105  react-native
+  106  sudo npm install -g react-native
+  107  react-native
+  108  react-native -v
+  109  react-native -info
+  110  react-native -version
+  111  react-native
+  112  react-native --version
+  113  cd ios && pod install
+  114  npx react-native run-android
+  115  yarn add react-native-permissions
+  116  npx react-native run-android
+  117  cd projetos/app
+  118  npm start
+  119  sudo dpkg -i deckboard_2.0.2_amd64.deb 
+  120  sudo install -f
+  121  chmod u+x deckboard_2.0.2_amd64.deb 
+  122  chmod u+x deckboard_2.0.2_amd64.AppImage
+  123  chmod u+x Deckboard-2.0.2.AppImage 
+  124  chmod u+x OpenRGB_0.7_x86_64_6128731.AppImage 
+  125  $ amixer scontrols 
+  126  amixer scontrols 
+  127  $ amixer sset 'Master' 50%
+  128  amixer sset 'Master' 50%
+  129  amixer -q sset Master 3%+
+  130  amixer -q sset Master toggle
+  131  amixer -q sset 'Master', toggle
+  132  amixer -q sset 'Master' toggle
+  133  pactl set-sink-volume 0 +15%
+  134  amixer -q -D pulse sset Master 10%+
+  135  [200~amixer -q -D pulse sset Master toggle~
+  136  amixer -q -D pulse sset Master toggle
+  137  timedatectl set-local-rtc 1
+  138  sudo apt-get install xclip
+  139  xclip
+  140  sudo apt install xclip
+  141  sudo apt install libnode64
+  142  sudo apt-get install xclip
+  143  sudo apt --fix-broken install xclip
+  144  sudo apt --fix-broken install
+  145  sudo apt-get install xclip
+  146  xclip
+  147  echo "oi" | zclip -i
+  148  echo "oi" | xclip -i
+  149  xclip -o
+  150  echo "{}" | xclip -i
+  151  xclip -o
+  152  echo " style={styles.}" | xclip -i
+  153  xclip -o
+  154  echo " style={styles.}" | xclip -i
+  155  echo " style={styles.}" | [200~xclip -selection clipboard~
+  156  echo " style={styles.}" | xclip -selection clipboard
+  157  echo " style={styles.}" | xclip clipboard
+  158  echo " style={styles.}" | xclip -selection
+  159  echo " style={styles.}" | xclip -selection clipboard
+  160  echo " style={styles.}" | xclip -i clipbo
+  161  echo " style={styles.}" | xclip -selection primary
+  162  man xclip
+  163  echo "A"| xclip -selection clipboard
+  164  echo "A"|tr  xclip -selection clipboard
+  165  echo "A"| tr | xclip -selection clipboard
+  166  echo "A"| tr -d '\n' | xclip -selection clipboard
+  167  npm install --global expo-cli
+  168  sudo npm install --global expo-cli
+  169  sudo npm install -g npm
+  170  cd projetos
+  171  expo init appVendas
+  172  cd appVendas
+  173  natulinu .
+  174  nautilus .
+  175  code .
+  176  yarn android
+  177  yarn android
+  178  cd projetos/appVenda
+  179  cd projetos
+  180  ls
+  181  cd appVendas
+  182  code .
+  183  yarn android
+  184  expo start
+  185  yarn android
+  186  cd projetos/appVendas
+  187  expo start
+  188  expo start
+  189  expo start -c
+  190  cd projetos/appVendas
+  191  expo r -c
+  192  sudo apt install libfuse2
+  193  cat /sys/module/snd_hda_intel/parameters/power_save
+  194  sudo su
+  195  echo 0 > /sys/module/snd_hda_intel/parameters/power_save 
+  196  sudo su
+  197  sudo apt-get remove speech-dispatcher
+  198  sudo su
+  199  timedatectl set-local-rtc 1 --adjust-system-clock
+  200  cd projetos/appVendas
+  201  expo r -c
+  202  cd projetos/appVendas
+  203  code .
+  204  expo r -c
+  205  cat /sys/module/snd_hda_intel/parameters/power_save
+  206  sudo nano /etc/pulse/daemon.conf
+  207  pulseaudio -k
+  208  npm start
+  209  cd projetos/appVendas
+  210  code .
+  211  nautilus
+  212  a
+  213  .
+  214  exit
+  215  cd projetos/appVendas
+  216  nautilus .
+  217  expo r -c
+  218  sudo apt-get -f install
+  219  sudo dpkg -i deckboard_2.0.2_amd64.deb 
+  220  sudo apt install deckboard_2.0.2_amd64.deb 
+  221  sudo apt install ./deckboard_2.0.2_amd64.deb 
+  222  sudo apt --fix-broken install ./deckboard_2.0.2_amd64.deb 
+  223  sudo gdebi deckboard_2.0.2_amd64.deb 
+  224  sudo apt-install gdebi-core
+  225  sudo apt install gdebi-core
+  226  sudo apt-get -f install
+  227  sudo apt-get update
+  228  sudo apt-get install gdebi-core
+  229  sudo gdebi deckboard_2.0.2_amd64.deb 
+  230  sudo apt install nodejs npm -y&& npm -v && nodejs -v 
+  231  sudo apt install nodejs npm -y && npm -v && nodejs -v 
+  232  sudo apt-get -f install
+  233  sudo dpkg -i deckboard_2.0.2_amd64.deb 
+  234  sudo apt-get -f install
+  235  sudo dpkg -i deckboard_2.0.2_amd64.deb 
+  236  sudo dpkg -i openrgb_0.7_amd64_bullseye_6128731.deb 
+  237  sudo apt-get -f install
+  238  sudo dpkg -i openrgb_0.7_amd64_bullseye_6128731.deb 
+  239  sudo dpkg -i deckboard_2.0.2_amd64.deb 
+  240  ~/.pulse/daemon.conf
+  241  expo r -c
+  242  /etc/pulse/default.pa
+  243  sudo /etc/pulse/default.pa
+  244  sudo su
+  245  sudo nano /etc/pulse/default.pa
+  246  pulseaudio -k
+  247  pulseaudio --start
+  248  cd projetos/appVendas
+  249  code .
+  250  expo r -c
+  251  nautilus .
+  252  expo r -c
+  253  nautilus .
+  254  nom i expo-constants
+  255  sudo npm i expo-constants
+  256  expo install react-native-gesture-handler
+  257  sudo [200~expo install react-native-gesture-handler~
+  258  sudo expo install react-native-gesture-handler
+  259  expo r -c
+  260  sudo dpkg -i deckboard_2.0.2_amd64.deb 
+  261  expo r -c
+  262  curl -X "DELETE" localhost:46624/clientapi/plugins/installed && ~/.local/share/kite/uninstall
+  263  nautilus .
+  264  expo r -c
+  265  sudo apt-get install --fix-broken
+  266  gksu software-properties-gtk
+  267  expo r -c
+  268  expo install @react-native-picker/picker
+  269  expo r -c
+  270  sudo expo install @react-native-picker/picker
+  271  expo r -c
+  272  cd projetos
+  273  expo
+  274  expo init Teste
+  275  cd Teste
+  276  code .
+  277  expo r -c
+  278  nautilus .
+  279  npm install -g expo-cli
+  280  sudo npm install -g expo-cli
+  281  expo r -c
+  282  nautilus .
+  283  code .
+  284  expo r -c
+  285  cd projetos/Teste
+  286  code .
+  287  expo r -c
+  288  sudo dpkd -i zoom_amd64.deb 
+  289  sudo dpkg -i zoom_amd64.deb 
+  290  sudo install --fix-problem
+  291  sudo apt-get --purge remove zoom
+  292  sudo apt --fix-broken install
+  293  sh webcamoid.sh
+  294  cd projetos/Teste
+  295  code .
+  296  expo r -c
+  297  cd projetos/appVendas
+  298  code 
+  299  expo r -c
+  300  code .
+  301  cd projetos
+  302  mkdir pelandoclone
+  303  cd pelandoclone
+  304  cd projetos
+  305  mkdir purge 
+  306  mkdir purge pelandoclone
+  307  mkdir -purge pelandoclone
+  308  mkdir -remove pelandoclone
+  309  mkdir --help
+  310  purge
+  311  help
+  312  dldir
+  313  dir
+  314  dir --help
+  315  nautilus .
+  316  exit
+  317  flatpak install flathub com.obsproject.Studio
+  318  sudo add-apt-repository ppa:obsproject/obs-studio
+  319  sudo apt update
+  320  sudo apt install ffmpeg obs-studio
+  321  cd projetos
+  322  expo init pelandoclone
+  323  code .
+  324  expo r -c
+  325  cd projetos/appVendas
+  326  code .
+  327  nautilus .
+  328  cd projetos/pelandoclone
+  329  code .
+  330  clear
+  331  expo r -c
+  332  clar
+  333  clear
+  334  expo r -c
+  335  cd projetos/appvendas
+  336  cd projetos/appVendas
+  337  code .
+  338  expo r -c
+  339  yarn add formik
+  340  sudo yarn add formik
+  341  formik
+  342  sudo npm install formik
+  343  formik
+  344  formik --v
+  345  formik -v
+  346  sudo npm install formik --save
+  347  yarn remove formik
+  348  sudo yarn remove formik
+  349  sudo npm install formik --save
+  350  sudo npm install formik yup
+  351  formik
+  352  expo r -c
+  353  sudo yarn remove formik
+  354  sudo npm install formik
+  355  sudo yarn remove formik
+  356  sudo npm i formik@2.1.4
+  357  clear
+  358  expo r -c
+  359  clear
+  360  sudo yarn remove formik
+  361  expo r -c
+  362  sudo npm install --save formik
+  363  sudo npm uninstall yup
+  364  sudo npm uninstall formik
+  365  node --v
+  366  node -v
+  367  sudo npm audit fix --force
+  368  expo r -c
+  369  sudo expo doctor --fix-dependencies
+  370  expo r -c
+  371  sudo npm i react-native@0.63.4
+  372  expo r -c
+  373  expo -version
+  374  expo --v
+  375  expo version
+  376  expo
+  377  expo - version
+  378  expo -version
+  379  expo -V
+  380  npm i -g expo-cli
+  381  sudo npm i -g expo-cli
+  382  sudo npm i -g eas-cli
+  383  sudo expo upgrade
+  384  expo r -c
+  385  sudo npm i yup
+  386  npm start --clean-cache
+  387  sudo npm i formik
+  388  expo r -c
+  389  npm start -clean
+  390  expo r -c
+  391  git clone https://github.com/ZainRk/FitClub-Starter
+  392  cd FitClub-Starter/
+  393  code .
+  394  sudo npm i react-styles-hook --save
+  395  sudo yarn add react-styles-hook
+  396  yarn
+  397  yarn start
+  398  sudo npm install react-icons --save
+  399  react-icons
+  400  yarn stop
+  401  yarn run
+  402  sudo yarn add react-responsive-carousel
+  403  yarn start
+  404  sudo npm i -S react-web-vector-icons
+  405  yarn start
+  406  npx create-react-app projetoTestes
+  407  sudo npx create-react-app projetos-testes
+  408  yarn create react-app projetos-testes
+  409  cd projetos-testes
+  410  yarn start
+  411  code .
+  412  yarn start
+  413  yarn start
+  414  sudo grub-install /dev/sda
+  415  sudo update-grub2
+  416  reboot
+  417  yarn start
+  418  yarn start
+  419  code .
+  420  nautilus .
+  421  sudo mount -a
+  422  sudo mount -o remount,rw
+  423  rm -f Unconfirmed\ hiberfil.sys
+  424  sudo rm -f Unconfirmed\ hiberfil.sys
+  425  ls
+  426  sudo rm -rf hiberfil.sys
+  427  chmod -v u+rw hiberfil.sys
+  428  sudo chmod -v u+rw hiberfil.sys
+  429  df -h
+  430  sudo mount -o remount,rw /dev/nvme0n1p3
+  431  sudo mount -o remount,rw /dev/sdb1
+  432  sudo unmount /dev/sdb1
+  433  sudo umount /dev/sdb1
+  434  sudo apt-get remove zoom
+  435  sudo apt-get update && sudo apt-get upgrade3
+  436  sudo apt-get update && sudo apt-get upgrade
+  437  sudo dpkg -i zoom_amd64.deb 
+  438  df -h
+  439  sudo mount -o remount,rw /dev/sdb3
+  440  sudo mount -o remount,rw /dev/sda3
+  441  sudo mount -o remount,rw tmpfs
+  442  sudo chown -R $USER: $HOME
+  443  ls -alF
+  444  sudo chown -R $moa: $HOME
+  445  gksudo nautilus
+  446  chmod -R +rw *
+  447  sudo chmod -R +rw *
+  448  sudo chown -R $USER:$USER ~
+  449  user@pc:~$ sudo chmod 754 /var/lib/lock *
+  450  sudo chmod 754 /var/lib/lock *
+  451  sudo chown -R $USER $HOME
+  452  sudo chown -R $USER ~/
+  453  sudo chown -R $USER ~
+  454  sudo chown -R $USER: ~
+  455  ls
+  456  df -h
+  457  sudo mount -o remount,rw /dev/sda3
+  458  sudo su
+  459  sudo dpkg -i XPPen-pentablet-3.2.3.220323-1.x86_64.deb 
+  460  sudo apt-add-repository ppa:bablu-boy/nutty
+  461  sudo apt-get update
+  462  sudo apt-get install com.github.babluboy.nutty
+  463  sudo add-apt-repository ppa:elementary-os/stable
+  464  sudo apt-get update
+  465  sudo apt-get install com.github.babluboy.nutty
+  466  sudo arp
+  467  ping 192.168.100.70
+  468  sudo apt-get install ./amdgpu-install_22.20.50200-1_all.deb 
+  469  sudo apt-get update
+  470  sudo dpkg -i amdgpu-install_22.20.50200-1_all.deb 
+  471  pacmd list-sources
+  472  pacmd list-sinks
+  473  alsamixer
+  474  pacmd set-default-source 2
+  475  pacmd set-default-source 0
+  476  pacmd set-default-source 1
+  477  pacmd set-default-source 3
+  478  pacmd set-default-sink 0
+  479  pacmd set-default-sink 1
+  480  pacmd set-default-sink 2
+  481  pacmd set-default-sink 3
+  482  pacmd set-default-sink 0
+  483  pacmd set-default-sink 1
+  484  pacmd set-default-sink 2
+  485  pacmd set-default-sink 3
+  486  pacmd set-default-sink 4
+  487  pacmd set-default-sink 1
+  488  cd /
+  489  ls
+  490  cd usr
+  491  ls
+  492  cd games
+  493  ls
+  494  cd ./
+  495  cd ~/
+  496  ls
+  497  clear
+  498  ls
+  499  cd ..
+  500  pwd
+  501  ls
+  502  cd moa
+  503  ls
+  504  mkdir Trybe
+  505  ls
+  506  cd Trybe
+  507  mkdir Bloco 1
+  508  ls
+  509  nautilus .
+  510  mkdir Bloco-1
+  511  cd Bloco-1
+  512  clear
+  513  nautilus .
+  514  touch
+  515  touch texto.txt
+  516  ls
+  517  cp texto.txt texto2.txt 
+  518  ls
+  519  clear
+  520  cat texto.txt 
+  521  delete texto2.txt 
+  522  clear
+  523  pwd
+  524  mv texto2.txt /home/moa/Trybe/
+  525  cd ..
+  526  ls
+  527  clear
+  528  ls
+  529  rm texto2.txt 
+  530  ls
+  531  cd Bloco-1/
+  532  ls
+  533  mkdir teste
+  534  rmdir teste/
+  535  mkdir teste
+  536  cd teste
+  537  touch teste.txt
+  538  ls
+  539  cd ..
+  540  rmdir teste
+  541  rm -rf teste
+  542  clear
+  543  cat texto.txt 
+  544  head -1 texto.txt 
+  545  tail -1 texto.txt 
+  546  less texto.txt 
+  547  grep -i moa texto.txt 
+  548  grep -ic 'a' texto.txt 
+  549  grep -ic 'r' texto.txt 
+  550  ls
+  551  cd ..
+  552  ls
+  553  ls *
+  554  cd ..
+  555  ls *
+  556  ls
+  557  cd ?rybe
+  558  man ls
+  559  man l s
+  560  man ls
+  561  whatis cp
+  562  whatis ls
+  563  whatis mk
+  564  whatis mkdir
+  565  man mkdir
+  566  apropos delete
+  567  apropos remove
+  568  nautilus ,
+  569  nautilus .
+  570  ls
+  571  cd unix_tests/
+  572  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  573  ls
+  574  rm 1.txt 
+  575  rm -rf abc
+  576  ls
+  577  less countries.txt 
+  578  grep -i brazil
+  579  grep -i 'brazil'
+  580  grep -i 'brazil' countries.txt 
+  581  curl phrases.txt "a b c d e f g h"
+  582  ls
+  583  touch phrases.txt "oi"
+  584  ls
+  585  cat phrases.txt 
+  586  wc -w phrases.txt 
+  587  wc phrases.txt 
+  588  touch empty.tbt
+  589  touch empty.pdf
+  590  ls
+  591  ls *.txt
+  592  ls *tbt | *pdf
+  593  man ls
+  594  ls I "*.txt"
+  595  ls -I "*.txt"
+  596  ls | grep *.txt
+  597  ls
+  598  ls *.txt
+  599  ls *.txt | ls *.tbt
+  600  ls
+  601  mkdir unix_tests
+  602  ls
+  603  cd unix_tests/
+  604  touch trybe.txt
+  605  cp trybe.txt trybe_backup.txt
+  606  ls
+  607  mkdir backup
+  608  mv trybe_backup.txt ./backup
+  609  ls
+  610  cd backup
+  611  ls
+  612  cd ..
+  613  ls
+  614  apropos rename
+  615  man rename
+  616  mkdir backup2
+  617  cd backup
+  618  ls
+  619  mv trybe_backup.txt ../backup2
+  620  ls
+  621  cd ..
+  622  ls
+  623  rm backup
+  624  rmdir backup
+  625  ls
+  626  rename backup2 backup
+  627  apropos rename
+  628  man rename
+  629  whatis rename
+  630  backup2 rename backup
+  631  rename
+  632  rn
+  633  mv backup2 backup
+  634  ls
+  635  cd backup
+  636  ls
+  637  cd ..
+  638  pwd
+  639  rm -rf backup/
+  640  ls
+  641  clear
+  642  touch skills.txt
+  643  head -5 skills.txt 
+  644  tail -4 skills.txt 
+  645  man rm
+  646  ls
+  647  rm -s .txt
+  648  rm --help
+  649  rm --help
+  650  man rm
+  651  grep .txt
+  652  rm *.txt
+  653  ls
+  654  touch 1.txt
+  655  touch 2.txt
+  656  ls
+  657  rm *.txt
+  658  ls
+  659  clear
+  660  ls *
+  661  touch 1.txt
+  662  mkdir abc/jtg
+  663  mkdir abc
+  664  ls
+  665  ls *
+  666  man curl
+  667  ls
+  668  ls -l
+  669  ls -l *.t?t
+  670  man ls
+  671  sudo apt update && sudo apt upgrade -y
+  672  sudo ubuntu-drivers autoinstall
+  673  xrandr --listmonitors
+  674  pacmd set-default-sink 0
+  675  pacmd set-default-sink 2
+  676  pacmd set-default-sink 3
+  677  pacmd set-default-sink 4
+  678  pacmd set-default-sink 5
+  679  pacmd set-default-sink 6
+  680  pacmd set-default-sink 7
+  681  pacmd set-default-sink 1
+  682  pacmd set-default-sink 0
+  683  pacmd set-default-sink 2
+  684  pacmd set-default-sink 3
+  685  pacmd set-default-sink 4
+  686  pacmd set-default-sink 5
+  687  pacmd set-default-sink 6
+  688  pacmd set-default-sink 7
+  689  pacmd set-default-sink 8
+  690  pacmd set-default-sink 9
+  691  pacmd set-default-sink 11
+  692  pacmd set-default-sink 12
+  693  pacmd set-default-sink 13
+  694  pacmd set-default-sink 0
+  695  cat
+  696  cat > nomes.txt
+  697  ls
+  698  cat nomes.txt 
+  699  cat >> nomes.txt 
+  700  ls
+  701  cat nomes.txt 
+  702  cls
+  703  cat > cores.txt
+  704  cat nomes.txt cores.txt > concatenado.txt
+  705  ls
+  706  cat concatenado.txt 
+  707  rm *.txt
+  708  ls
+  709  cd trybe/
+  710  ls
+  711  cd trybe-exercicios/
+  712  cd
+  713  ls
+  714  cd trybe/trybe-exercicios/
+  715  ls
+  716  cd fundamentos/
+  717  ls
+  718  cd unix_tests/
+  719  ls
+  720  rm empty.*
+  721  ls
+  722  cat > nomes.txt
+  723  cat > cores.txt
+  724  cat >> nomes.txt 
+  725  cat nomes.txt 
+  726  cat >> cores.txt 
+  727  cat nomes.txt cores.txt > tudo.txt
+  728  cat tudo.txt 
+  729  head -5 tudo.txt 
+  730  wc -c tudo.txt 
+  731  wc -w tudo.txt 
+  732  wc -l tudo.txt 
+  733  grep -i a tudo.txt 
+  734  grep -ic a tudo.txt 
+  735  grep -in a tudo.txt 
+  736  sort < tudo.txt 
+  737  cat tudo.txt 
+  738  sort < tudo.txt > ordenado.txt
+  739  cat ordenado.txt 
+  740  who
+  741  who | cat > user.txt
+  742  cat user.txt 
+  743  grep m tudo.txt | sort
+  744  ls
+  745  whatis ls
+  746  man ls
+  747  ls -l
+  748  head -5 countries.txt | cat >> tudo.txt 
+  749  cat tudo.txt 
+  750  grep F countries.txt | cat > f-countries.txt
+  751  cat f-countries.txt 
+  752  grep D countries.txt | cat > d-countries.txt
+  753  cat d-countries.txt 
+  754  ls -l
+  755  chmod u-rw tudo.txt 
+  756  cat tudo.txt 
+  757  chmod u+rw tudo.txt 
+  758  ls -l
+  759  cat tudo.txt 
+  760  history | cat > log.txt
