@@ -26,6 +26,7 @@
     border: 5px solid black;
 }
 
+/* Exercicio 2 */
 .super-mario {
     width: 200px;
     position: absolute;
@@ -81,7 +82,7 @@
     text-decoration: none;
     list-style: none;
 }
-
+/* Exercicio 4 */
 .exercicio4{
     position: absolute;
     width: 100%;
@@ -118,4 +119,66 @@
 
 .exercicio4 div:nth-of-type(2n +1){
     font-style: italic;
+}
+
+/* ecercicio 5 */
+
+.exercicio5{
+    position: absolute;
+    width: 100%;
+    top: 1500px;
+}
+
+.exercicio5 ol li:nth-of-type(2n+1){
+    background-color: yellow;
+    text-transform: uppercase;
+}
+
+.exercicio5 ol li:nth-of-type(2n) {
+    background-color: green;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: red;
+}
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li{
+    font-size: 20px;
+}
+
+li em{
+    font-weight: 600;
+}
+
+.linguagens li:nth-child(-n+3){
+    color: blue;
+}
+.linguagens .java{
+    background-color: pink;
+}
+
+.aliados li:nth-of-type(1) a:hover{
+    color: rgb(255, 136, 0);
+    font-weight: 600;
+}
+.aliados li:nth-of-type(2) a:hover{
+    color: rgb(9, 255, 0);
+    font-weight: 600;
+}
+.aliados li:nth-of-type(3) a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.aliados li:nth-of-type(4) a:hover{
+    color: rgb(255, 238, 0);
+    font-weight: 600;
+}
+.aliados li:nth-of-type(5) a:hover{
+    color: rgb(0, 255, 128);
+    font-weight: 600;
 }
