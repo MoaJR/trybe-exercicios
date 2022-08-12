@@ -57,3 +57,27 @@
     left: 500px;
     top: 450px;
 }
+
+.container{
+    width: 100%;
+    position: absolute;
+    top: 700px;
+}
+
+.container h1, .container p{
+    text-align: center;
+}
+
+.container li:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.container li:active{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container ul, .container ol{
+    text-decoration: none;
+    list-style: none;
+}
