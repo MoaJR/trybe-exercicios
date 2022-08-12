@@ -21,3 +21,7 @@ No terceiro dia do bloco 3, aprendemos o básico sobre seletores e posicionament
 #### Exercício 4
 
 ![image](https://user-images.githubusercontent.com/99083242/184366817-d4791b09-9601-4546-904d-8ca61c8949da.png)
+
+#### Exercício 5
+
+![image](https://user-images.githubusercontent.com/99083242/184375049-5a5ef7d1-b732-4fa1-8b77-506107d755f7.png)
