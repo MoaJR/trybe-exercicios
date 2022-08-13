@@ -1,0 +1,184 @@
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.width-and-height {
+    height: 50px;
+    width: 50px;
+}
+
+/* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+.padding {
+    padding: 20px;
+}
+
+/* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+.margin {
+    margin: 30px;
+}
+
+/* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+.border {
+    border: 5px solid black;
+}
+
+/* Exercicio 2 */
+.super-mario {
+    width: 200px;
+    position: absolute;
+}
+
+.goomba {
+    width: 100px;
+    position: absolute;
+    top: 550px;
+    left: 50px;
+}
+
+.baloon {
+    position: absolute;
+    left: 300px;
+}
+
+.speech {
+    font-size: 25px;
+    position: absolute;
+    left: 320px;
+    z-index: 2;
+    top: 280px;
+}
+
+.bowser {
+    width: 200px;
+    position: absolute;
+    left: 500px;
+    top: 450px;
+}
+
+.container{
+    width: 100%;
+    position: absolute;
+    top: 700px;
+}
+
+.container h1, .container p{
+    text-align: center;
+}
+
+.container li:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.container li:active{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container ul, .container ol{
+    text-decoration: none;
+    list-style: none;
+}
+/* Exercicio 4 */
+.exercicio4{
+    position: absolute;
+    width: 100%;
+    top: 1100px;
+}
+
+.exercicio4 div:hover{
+    border: 1px solid black;
+}
+
+.exercicio4 div:nth-of-type(1){
+    background-color: hsl(203, 39%, 44%);
+}
+.exercicio4 div:nth-of-type(2){
+    background-color: hsl(355, 78%, 56%);
+}
+.exercicio4 div:nth-of-type(3){
+    height: 50px;
+    background-color: hsl(182, 43%, 76%);
+}
+.exercicio4 div:nth-of-type(4){
+    background-color: hsl(215, 50%, 23%);
+}
+.exercicio4 div:nth-of-type(5){
+    background-color: hsl(105, 55%, 96%);
+}
+
+.exercicio4 h3{
+    color: white;
+}
+.exercicio4 div:nth-of-type(5) h3{
+    color: black;
+}
+
+.exercicio4 div:nth-of-type(2n +1){
+    font-style: italic;
+}
+
+/* ecercicio 5 */
+
+.exercicio5{
+    position: absolute;
+    width: 100%;
+    top: 1500px;
+}
+
+.exercicio5 ol li:nth-of-type(2n+1){
+    background-color: yellow;
+    text-transform: uppercase;
+}
+
+.exercicio5 ol li:nth-of-type(2n) {
+    background-color: green;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: red;
+}
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li{
+    font-size: 20px;
+}
+
+li em{
+    font-weight: 600;
+}
+
+.linguagens li:nth-child(-n+3){
+    color: blue;
+}
+.linguagens .java{
+    background-color: pink;
+}
+
+.aliados li:nth-of-type(1) a:hover{
+    color: rgb(255, 136, 0);
+    font-weight: 600;
+}
+.aliados li:nth-of-type(2) a:hover{
+    color: rgb(9, 255, 0);
+    font-weight: 600;
+}
+.aliados li:nth-of-type(3) a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.aliados li:nth-of-type(4) a:hover{
+    color: rgb(255, 238, 0);
+    font-weight: 600;
+}
+.aliados li:nth-of-type(5) a:hover{
+    color: rgb(0, 255, 128);
+    font-weight: 600;
+}
