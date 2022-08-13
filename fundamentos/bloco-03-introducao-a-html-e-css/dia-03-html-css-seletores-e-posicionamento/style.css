@@ -182,3 +182,10 @@ li em{
     color: rgb(0, 255, 128);
     font-weight: 600;
 }
+
+a:link, a:visited{
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
