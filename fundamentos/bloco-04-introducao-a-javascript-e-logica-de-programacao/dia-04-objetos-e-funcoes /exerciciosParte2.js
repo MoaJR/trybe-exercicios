@@ -13,10 +13,10 @@ let verificaPalindrome = (string) => {
         tempString += stringLowercase[i];        
     }
 
-    (stringLowercase === tempString) ? console.log('True') : console.log('False');;
+    return (stringLowercase === tempString) ? true : false;
 }
 
-verificaPalindrome('arara')
+console.log(verificaPalindrome('arara'));
 
 // 2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
 // Array de teste: [2, 3, 6, 7, 10, 1];.
@@ -80,7 +80,7 @@ let mostRepetitive = (array) => {
     array.forEach((n) => {
         for (let i = 0; i < array.length; i++) {
             if(n == array[i]){
-                console.log(n);
+                
             }
         }
     })
@@ -88,3 +88,32 @@ let mostRepetitive = (array) => {
 
 array = [2, 3, 2, 5, 8, 2, 3]
 mostRepetitive(array)
+
+// 6 - Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o somatório de todos os números de 1 até N.
+// Valor de teste: N = 5.
+// Valor esperado no retorno da função: 1+2+3+4+5 = 15.
+
+let somatorio = (n) => {
+    let sum = 0;
+    for (let i = 0; i <= n; i++) {
+        sum += i;
+    }
+    return sum;
+}
+
+console.log(somatorio(5));
+
+// 7 - Crie uma função que receba uma string word e outra string ending. Verifique se a string ending é o final da string word. Considere que a string ending sempre será menor que a string word.
+// Valor de teste: 'trybe' e 'be'
+// Valor esperado no retorno da função: true
+// verificaFimPalavra('trybe', 'be');
+// Retorno esperado: true
+// verificaFimPalavra('joaofernando', 'fernan');
+// Retorno esperado: false
+
+let isEnding = (string, ending) => {
+    let tempString = string.slice(-(ending.length));
+    return (tempString === ending) ? true : false;
+}
+
+console.log(isEnding('trybe', 'be'))
