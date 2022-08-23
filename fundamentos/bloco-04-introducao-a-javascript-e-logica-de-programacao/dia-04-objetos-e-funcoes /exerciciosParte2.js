@@ -76,17 +76,29 @@ nomeLongo(array)
 // Array de teste: [2, 3, 2, 5, 8, 2, 3];.
 // Valor esperado no retorno da função: 2.
 
-let mostRepetitive = (array) => {
-    array.forEach((n) => {
-        for (let i = 0; i < array.length; i++) {
-            if(n == array[i]){
-                
+let mostRepetitive = (arrayUnsorted) => {
+    let array = arrayUnsorted.sort();
+    let numeroRepeticoes = 0;
+    let numeroRepetido = 0;
+
+    for (let i = 0; i < array.length; i++) {
+
+        let count = 0;
+
+        for (let j = 0; j < array.length; j++) {
+            if(array[i] === array[j]){
+                count += 1;
             }
+        }        
+        if(count > numeroRepeticoes){
+            numeroRepeticoes = count;
+            numeroRepetido = array[i];
         }
-    })
+    }
+    console.log(numeroRepetido);
 }
 
-array = [2, 3, 2, 5, 8, 2, 3]
+array = [2, 3, 2, 5, 8, 8, 2, 3, 3, 3, 3]
 mostRepetitive(array)
 
 // 6 - Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o somatório de todos os números de 1 até N.
