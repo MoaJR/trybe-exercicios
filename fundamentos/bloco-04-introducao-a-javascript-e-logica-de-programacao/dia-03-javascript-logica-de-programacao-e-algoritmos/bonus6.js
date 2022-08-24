@@ -1,5 +1,3 @@
-// 6- Faça um programa que diz se um número definido numa variável é primo ou não.
-
 let isPrimo = (n) => {
     if (n <= 0) return false;
 

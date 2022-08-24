@@ -1,5 +1,3 @@
-// Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
-
 let a = Math.floor(Math.random()*20);
 let b = Math.floor(Math.random()*20);
 let c = Math.floor(Math.random()*20);

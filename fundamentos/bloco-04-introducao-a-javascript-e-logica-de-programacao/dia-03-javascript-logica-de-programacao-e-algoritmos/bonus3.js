@@ -1,5 +1,3 @@
-// 3- Agora inverta o lado do triângulo.
-
 let n = 5;
 let string = '';
 

@@ -1,6 +1,3 @@
-// Fizemos um algorítimo que gera um array randômico que
-// nunca repete os numeros sorteados
-
 let jogo = [3, 17, 20, 42, 50, 60];
 
 let sorteado = [];
