@@ -1,5 +1,5 @@
 
-let romanos = 'XIV'
+let romanos = 'mmxviii'
 
 const numerosRomanos = {
     I: 1,
@@ -12,43 +12,20 @@ const numerosRomanos = {
 }; 
 
 let translator = (stringTemp) => {
+
     let string = stringTemp.toUpperCase()
-    const ultimo = string.length-1;
-    let sum = 0;
+    let sum = numerosRomanos[string[string.length-1]];
+    let atual = numerosRomanos[string[string.length-1]];
 
-    for (let i = 0; i < string.length; i++) {
-        if(i !== ultimo){
-            if(numerosRomanos[string[i]] < numerosRomanos[string[i+1]]){
-                sum += (numerosRomanos[string[i+1]] - numerosRomanos[string[i]])
-            }else if(numerosRomanos[string[i]] > numerosRomanos[string[i+1]]){
-                //sum += (numerosRomanos[string[i+1]] + numerosRomanos[string[i]])
-            }
+    for (let i = string.length-2; i >= 0; i -= 1) {
+        if(numerosRomanos[string[i]] >= atual){
+            sum += numerosRomanos[string[i]] 
+        } else{
+            sum -= numerosRomanos[string[i]] 
         }
+        atual = numerosRomanos[string[i]]
     }
-    console.log(sum);
+    console.log(`${string} convertido em decimais é: ${sum}`);
 }
+
 translator(romanos)
-
-/*
-function NumeroRomaninho(num) {
-num = num.toLowerCase();
-const tamanho = num.length;
-let sum = numerosRomanos[num[tamanho - 1]];
-let atual = numerosRomanos[num[tamanho - 1]];
-for (let i = 2; i <= tamanho; i += 1) {
-const ultimo = numerosRomanos[num[tamanho - i]];
-console.log(ultimo);
-
-if (atual <= ultimo) {
-sum += ultimo;
-} else {
-sum -= ultimo;
-}
-
-atual = ultimo;
-}
-
-return sum;
-}
-console.log(NumeroRomaninho("XIV")); 
-*/
