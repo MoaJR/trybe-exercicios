@@ -1,5 +1,5 @@
 {
-// 1 - Usando o objeto abaixo, utilize for/in e imprima no console a mensagem 'Olá xxxxx' para cada nome, substituindo o xxxxx pelo nome em questão.
+//
 
 let names = {
   person1: 'João',
@@ -18,7 +18,7 @@ for (const key in names) {
 }
 
 {
-// 2 - Usando o objeto abaixo, utilize for/in e imprima um console.log com as chaves e valores desse objeto.
+//
 
 let car = {
   model: 'A3 Sedan',
@@ -39,12 +39,7 @@ for (const key in car) {
 // FUNÇÕES
 
 {
-// Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados. Faça programas para:
-// Adição (a + b)
-// Subtração (a - b)
-// Multiplicação (a * b)
-// Divisão (a / b)
-// Módulo (a % b)
+//
 
 let soma = (a, b) => {
     console.log(a + b);
@@ -75,7 +70,7 @@ modulo(5, 7)
 // 0.7142857142857143
 // 5
 
-// Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.
+//
 let maiorNumero = (a, b) => {
     if(a > b) console.log(a + ' é o maior número.');
     else if(b > a) console.log(b + ' é o maior número.');
@@ -87,7 +82,7 @@ maiorNumero(10, 5)
 // output:
 // 10 é o maior número.
 
-//Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
+//
 let maiorTresNumeros = (a, b, c) => {
     if(a > b && a > c) console.log(a + ' é o maior número.');
     else if(b > c) console.log(b + ' é o maior número.');
@@ -99,7 +94,7 @@ maiorTresNumeros(1, 2, 3)
 // output:
 // 3 é o maior número.
 
-// Faça um programa que, dado um valor recebido como parâmetro, retorne "positive" se esse valor for positivo, "negative" se for negativo, e caso não seja nem positivo e nem negativo retorne "zero".
+//
 let signalCheck = (n) => {
     if (n > 0) console.log('Positive');
     else if (n < 0) console.log('Negative');
@@ -115,9 +110,7 @@ signalCheck(0)
 // Negative
 // Zero
 
-// Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. 
-// Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. 
-// Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
+// 
 let isTriangle = (x, y, z) => {
     if(x <= 0 || y <= 0 || z <= 0) {
         console.log('Erro! Insira valores válidos');
