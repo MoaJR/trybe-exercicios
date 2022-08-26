@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+        main,
+        section {
+            border-color: black;
+            border-style: solid;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .main-content {
+            background-color: yellow;
+        }
+
+        .main-content .center-content {
+            background-color: red;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .main-content .center-content p {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    </header>
+    <main class="main-content">
+        <section class="center-content">
+            <p>Texto padrão do nosso site</p>
+            <p>-----</p>
+            <p>Trybe</p>
+        </section>
+    </main>
+    <script>
+        //1
+        let pSelector = document.getElementsByTagName('p');
+
+        let changeP = (string) => {
+            pSelector[1].innerText = string;
+        } 
+
+        changeP('Dev em uma grande empresa internacional')
+         
+        //2
+        let mainContent = document.querySelector('.main-content');
+
+        let changeColor = (rgb) => {
+            mainContent.style.backgroundColor = rgb;
+        }
+        changeColor('rgb(76, 164, 109)');
+
+        //3
+        let centerContent = document.querySelector('.center-content');
+
+        let changeColorCenter = (rgb) => {
+            centerContent.style.backgroundColor = rgb;
+        }
+        changeColorCenter('rgb(255, 255, 255)');
+        
+        //4
+        let title = document.querySelector('.title');
+
+        let changeTitle = (string) => {
+            title.innerText = string;
+        }
+        changeTitle('Exercício 5.1 - Javascript');
+
+        //5
+        let changeAllP = () => {
+            for (const key in pSelector) {
+                pSelector[key].innerText = pSelector[key].innerText.toUpperCase();
+            }
+        }
+        changeAllP();
+
+        //5
+        let logP = () => {
+            for (const key in pSelector) {
+                console.log(pSelector[key]);
+            }
+        }
+        logP();
+    </script>
+</body>
+
+</html>
