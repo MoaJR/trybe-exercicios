@@ -7,6 +7,38 @@
         <title>Forms</title>
     </head>
     <body>
-        
+        <h1>Formulário</h1>
+        <form action="" method="get" enctype="multipart/form-data">
+            <label for="nome">Nome Completo:
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            </label>
+            <br>
+            <label for="email">e-mail:
+                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            </label>
+            <br>
+            <label for="">Estado onde você mora
+                <select name="estado" id="estado">
+                    <option value="mg" selected>Minas Gerais</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="es">Espírito Santo</option>
+                </select>
+            </label>
+            <br>
+            <p>Selecionar Foto</p>
+            <input type="file" name="foto" id="foto">
+            <br>
+            <p>Comidas Favoritas</p>
+            <label for="comida1">
+                <input type="radio" name="comida" id="comida1" value="pizza">Pizza
+            </label>
+            <label for="comida2">
+                <input type="radio" name="comida" id="comida2" value="macarrao">Macarrão
+            </label>
+            <label for="comida3">
+                <input type="radio" name="comida" id="comida3" value="strogonoff">Strogonoff
+            </label>
+        </form>
     </body>
 </html>
